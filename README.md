@@ -22,3 +22,14 @@ Distributed-Reservation-System
 - GET /api/v1/reservations/123
 - POST /api/v1/reservations
 - DELETE /api/v1/reservations/123
+
+### Data Model
+- Let's go with relational database i.e PostgreSQL
+- Why:
+1. ACID properties, transactional guarantees
+2. Easier Locking mechanisms
+3. Data can be easily sharded for scalability
+4. Easier to model hotel and resevation data
+5. More READs than WRITEs
+6. Mostly CRUD Operations
+
