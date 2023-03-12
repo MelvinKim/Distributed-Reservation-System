@@ -28,7 +28,7 @@ Distributed-Reservation-System
 - Why:
 1. ACID properties, transactional guarantees
 2. Easier Locking mechanisms
-3. Data can be easily sharded for scalability
+3. Data can be easily sharded for scalability eg based on the hotelIDs
 4. Easier to model hotel and resevation data
 5. More READs than WRITEs
 6. Mostly CRUD Operations
