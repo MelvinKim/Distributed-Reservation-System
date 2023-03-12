@@ -24,7 +24,7 @@ Distributed-Reservation-System
 - DELETE /api/v1/reservations/123
 
 ### Data Model
-- Let's go with relational database i.e PostgreSQL
+- Let's go with a relational database i.e PostgreSQL
 - Why:
 1. ACID properties, transactional guarantees
 2. Easier Locking mechanisms
