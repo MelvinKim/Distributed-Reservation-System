@@ -21,4 +21,4 @@ Distributed-Reservation-System
 - GET /api/v1/reservations
 - GET /api/v1/reservations/123
 - POST /api/v1/reservations
-- POST /api/v1/reservations/123
+- DELETE /api/v1/reservations/123
