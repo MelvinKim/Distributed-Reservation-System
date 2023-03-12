@@ -16,3 +16,9 @@ Distributed-Reservation-System
 2. Browsing through hotel features
 - Our system is read-heavy -- Significantly higher amount of READ than WRITE.
 
+### API Requirement
+#### Reservation
+- GET /api/v1/reservations
+- GET /api/v1/reservations/123
+- POST /api/v1/reservations
+- POST /api/v1/reservations/123
