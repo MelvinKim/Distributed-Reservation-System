@@ -33,5 +33,5 @@ Distributed-Reservation-System
 5. More READs than WRITEs
 6. Mostly CRUD Operations
 
-<img src="https://res.cloudinary.com/melvinkimathi/image/upload/v1678610358/Hotel_Reservation.drawio-2_mb8mkm.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+<img src="https://res.cloudinary.com/melvinkimathi/image/upload/v1678610358/Hotel_Reservation.drawio-2_mb8mkm.png" alt="MarineGEO circle logo" style="height: 1000px; width:1000px;"/>
 
