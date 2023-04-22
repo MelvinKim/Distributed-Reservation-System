@@ -8,7 +8,6 @@ import (
 	"time"
 
 	"github.com/MelvinKim/Hotel-Reservation-System/domain"
-	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
@@ -53,10 +52,6 @@ func Migrate(db *gorm.DB) {
 
 // Init initializes a new gorm DB instance by connecting to the database specified
 func Init() *gorm.DB {
-	err := godotenv.Load("../../.env")
-	if err != nil {
-		log.Fatalf("Error loading environment varaibles file: %v", err)
-	}
 	dsn := fmt.Sprintf(
 		"host=%s user=%s password=%s dbname=%s port=%s sslmode=disable TimeZone=Africa/Nairobi",
 		os.Getenv("DB_HOST"),
