@@ -3,11 +3,11 @@ package database
 import (
 	"context"
 	"fmt"
-	"log"
 	"os"
 	"time"
 
 	"github.com/MelvinKim/Hotel-Reservation-System/domain"
+	log "github.com/sirupsen/logrus"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
@@ -65,7 +65,9 @@ func Init() *gorm.DB {
 	if err != nil {
 		log.Fatalf("can't open connection to postgres database: %v", err)
 	}
+	log.Info("Database connected successfully.")
 	Migrate(db)
+	log.Info("Database migrations ran successfully.")
 	return db
 }
 
