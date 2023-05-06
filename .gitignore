@@ -1,5 +1,6 @@
 postgres-data
 postgres-test-data
+cache-data
 docker-compose.txt
 .env
 env.sh

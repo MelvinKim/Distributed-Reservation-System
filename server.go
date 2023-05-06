@@ -20,5 +20,5 @@ func main() {
 		return
 	}
 
-	log.Info("server up and running on port %d", PORT)
+	log.Infof("server up and running on port %d", PORT)
 }
