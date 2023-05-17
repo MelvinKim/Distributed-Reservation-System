@@ -32,6 +32,9 @@ Distributed-Reservation-System
 4. Easier to model hotel and resevation data
 5. More READs than WRITEs
 6. Mostly CRUD Operations
-
 <img src="https://res.cloudinary.com/melvinkimathi/image/upload/v1678610358/Hotel_Reservation.drawio-2_mb8mkm.png" alt="MarineGEO circle logo" style="height: 800px; width:800px;"/>
+
+### Architecture diagram
+<img src="https://res.cloudinary.com/melvinkimathi/image/upload/v1684342714/nginx-doc_jeny0m.png" alt="MarineGEO circle logo" style="height: 800px; width:800px;"/>
+
 
