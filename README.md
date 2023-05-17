@@ -35,6 +35,6 @@ Distributed-Reservation-System
 <img src="https://res.cloudinary.com/melvinkimathi/image/upload/v1678610358/Hotel_Reservation.drawio-2_mb8mkm.png" alt="MarineGEO circle logo" style="height: 800px; width:800px;"/>
 
 ### Architecture diagram
-<img src="https://res.cloudinary.com/melvinkimathi/image/upload/v1684342714/nginx-doc_jeny0m.png" alt="MarineGEO circle logo" style="height: 800px; width:800px;"/>
+<img src="https://res.cloudinary.com/melvinkimathi/image/upload/v1684342714/nginx-doc_jeny0m.png" alt="MarineGEO circle logo" style="height: 500px; width:1000px;"/>
 
 
